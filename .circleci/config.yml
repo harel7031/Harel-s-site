@@ -1,0 +1,12 @@
+ version: 2.1
+
+ orbs:
+  win: harelsegev123-pd
+
+ jobs:
+   build:
+     executor: harelsegev123-pd   
+    
+     steps:
+       - checkout
+       - run: harelsegev123-pd
